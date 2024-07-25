@@ -1,1 +1,1 @@
-print("hello wordl page 1")
+st.write("# Welcome to Streamlit page 1 ! 👋")
