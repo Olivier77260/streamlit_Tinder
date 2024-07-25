@@ -1,9 +1,6 @@
 import streamlit as st
 
-st.markdown("# Main page 🎈")
-st.sidebar.markdown("# Main page 🎈")
-
-create_page = st.Page("page1.py", title="Create entry")
+create_page = st.Page("page1.py", title="Create entry 1")
 delete_page = st.Page("page2.py", title="Delete entry")
 
 pg = st.navigation([create_page, delete_page])
